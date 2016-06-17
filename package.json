@@ -1,0 +1,23 @@
+{
+  "name": "bamazon-mysql",
+  "version": "0.0.0",
+  "description": "a MySQL/node.js application that takes “orders” from “customers” and depletes the “store’s” supplies, tracks these product “sales” across departments, and provides a summary of the “highest-grossing” departments in the “store”",
+  "main": "Bamazon.js",
+  "scripts": {
+    "test": "node Bamazon.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BFGriffith/Bamazon-MySQL.git"
+  },
+  "keywords": [
+    "node.js",
+    "MySQL"
+  ],
+  "author": "BFGriffith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BFGriffith/Bamazon-MySQL/issues"
+  },
+  "homepage": "https://github.com/BFGriffith/Bamazon-MySQL#readme"
+}
