@@ -1,3 +1,4 @@
+//v1.0 MVP
 function Bamazon() {
 
 var mysql = require('mysql');
