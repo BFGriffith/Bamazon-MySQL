@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/BFGriffith/Bamazon-MySQL#readme",
   "dependencies": {
-    "mysql": "^2.11.1",
-    "prompt": "^1.0.0"
+    "inquirer": "^1.0.3",
+    "mysql": "^2.11.1"
   }
 }
