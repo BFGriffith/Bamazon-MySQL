@@ -1,4 +1,5 @@
 create database Bamazon_db;
+
 use Bamazon_db;
 create table products (
 	  itemID integer NOT NULL auto_increment,
@@ -7,6 +8,15 @@ create table products (
     price float(62,2),
     stockQuantity integer NOT NULL,
     constraint PRIMARY KEY (itemID)
+);
+
+use Bamazon_db;
+create table departments (
+	departmentID integer NOT NULL auto_increment,
+  departmentName varchar(60),
+	overheadCosts decimal(62,2),
+  totalSales decimal(62,2),
+  constraint PRIMARY KEY (departmentID)
 );
 
 -- products:
@@ -30,3 +40,11 @@ INSERT INTO	products (productName, departmentName, price, stockQuantity)
 	values ('Crabs Adjust Humidity', 'games', 12.87, 19);
 INSERT INTO	products (productName, departmentName, price, stockQuantity)
 	values ('Utter Nonsense', 'games', 21.02, 30);
+
+-- departments:
+INSERT INTO	departments (departmentName, overheadCosts, totalSales)
+	values ('weapons', 999.99, 10.99);
+INSERT INTO	departments (departmentName, overheadCosts, totalSales)
+	values ('vehicles', 10000.99, 100.99);
+INSERT INTO	departments (departmentName, overheadCosts, totalSales)
+	values ('games', 500.99, 300.99);
